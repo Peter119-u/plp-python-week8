@@ -15,7 +15,30 @@ while True:
     choice = input("\nEnter your choice: ")
 
     if choice == "1":
-        print("Calculator selected.")
+    # Calculator: performs basic arithmetic on two numbers.
+    print("\n--- Calculator ---")
+
+    num1 = float(input("Enter the first number: "))
+    operator = input("Enter an operation (+, -, *, /): ")
+    num2 = float(input("Enter the second number: "))
+
+    if operator == "+":
+        result = num1 + num2
+    elif operator == "-":
+        result = num1 - num2
+    elif operator == "*":
+        result = num1 * num2
+    elif operator == "/":
+        if num2 == 0:
+            print("Sorry, you cannot divide by zero.")
+            continue
+        result = num1 / num2
+    else:
+        print(f"Sorry, '{operator}' is not a valid operation.")
+        continue
+
+    print(f"Your answer is: {result}")
+
 
     elif choice == "2":
         print("To-Do List selected.")
