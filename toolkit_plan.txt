@@ -1,0 +1,45 @@
+PERSONAL MINI-TOOLKIT PLAN
+
+1. CALCULATOR
+The calculator will ask the user for two numbers and an operation, then display the result.
+
+Concepts used:
+- Variables
+- Input and output
+- Conditionals
+- F-strings
+
+2. TO-DO LIST
+The to-do list will allow the user to add tasks, view tasks, and remove tasks while the program is running.
+
+Concepts used:
+- Lists
+- Loops
+- Conditionals
+- Input and output
+- F-strings
+
+3. NUMBER GUESSING GAME
+The number guessing game will give the user a secret number and allow them to keep guessing until they find the correct number.
+
+Concepts used:
+- Variables
+- Loops
+- Conditionals
+- Input and output
+- F-strings
+
+MENU TEXT
+
+========================================
+       WELCOME TO MY MINI-TOOLKIT
+========================================
+
+Please choose a tool:
+
+1. Calculator
+2. To-Do List
+3. Number Guessing Game
+4. Quit
+
+Enter your choice:
